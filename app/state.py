@@ -7,7 +7,7 @@ from langgraph.graph.message import add_messages
 from langchain_openai import ChatOpenAI
 
 
-# 1) 상태 정의 111
+# 1) 상태 정의
 class ChatState(TypedDict):
     messages: Annotated[List[BaseMessage], add_messages]
 
